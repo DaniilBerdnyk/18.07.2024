@@ -12,10 +12,10 @@ LongInvestment::LongInvestment(string name, float money) : Investment(name, mone
 
 float LongInvestment::Calculate(int month) const
 {
-	float result;
-	float money;
+	float result = getMoney();
+
 	while (month >= 12) {
-		result = money + money * longInvestment;
+		result += result * longInvestment;
 		month = month - 12;
 	}
 	return result;

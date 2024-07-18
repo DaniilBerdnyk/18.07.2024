@@ -10,10 +10,10 @@ DepositeDemand::DepositeDemand(string name, float money)
 
 float DepositeDemand::Calculate(int month) const
 {
-	float result;
-	float money;
+	float result = getMoney();
+
 	while (month >= 12) {
-		result = money + money * depositeDemand;
+		result += result * depositeDemand;
 		month = month - 12;
 	}
 	return result;
@@ -25,3 +25,4 @@ void DepositeDemand::ShowInfo() const
 	cout << "Name: " << getName() << endl;
 	cout << "Money: " << getMoney() << endl;
 }
+ 

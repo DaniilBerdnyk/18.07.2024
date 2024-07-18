@@ -49,10 +49,6 @@ void Investment::DelMoney(float summ)
 }
 
 
-
-
-
-
 string Investment::getName() const
 {
     return name;
