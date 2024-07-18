@@ -19,11 +19,14 @@ public:
 	void setName(string name);
 	void setMoney(float money);
 
+	
+
 	string getName()const;
 	float getMoney()const;
 
 	virtual float Calculate(int month)const = 0;
 	virtual void ShowInfo()const = 0;
 
+	
 };
 
