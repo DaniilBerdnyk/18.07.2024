@@ -9,7 +9,7 @@ class Bank
 	string name;
 	float sumInvestments;
 	int countInvestments;
-	set<Investment*> investments;
+	set<Investment*> investments; 
 	
 public:
 	Bank();

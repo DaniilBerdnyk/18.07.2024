@@ -56,7 +56,7 @@ void Bank::addInvestment(Investment* obj)
 {
     investments.insert(obj);
     countInvestments++;
-    checkSumInvestments();
+    checkSumInvestments(); 
 }
 
 void Bank::deleteInvestment(string name)
