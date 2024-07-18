@@ -18,5 +18,13 @@
     <ClCompile Include="18.07.2024.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Investment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Investment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
