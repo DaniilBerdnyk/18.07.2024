@@ -55,8 +55,8 @@ int Bank::getCountInvestments() const
 void Bank::addInvestment(Investment* obj)
 {
     investments.insert(obj);
-    countInvestments++; 
-    checkSumInvestments(); 
+    countInvestments++;
+    checkSumInvestments();
 }
 
 void Bank::deleteInvestment(string name)
