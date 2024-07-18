@@ -22,7 +22,7 @@ public:
 	string getName()const;
 	float getMoney()const;
 
-	virtual float Calculate() = 0;
-
+	virtual float Calculate(int month)const = 0;
+	virtual void ShowInfo()const = 0;
 };
 
