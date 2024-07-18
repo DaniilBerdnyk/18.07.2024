@@ -28,6 +28,5 @@ public:
 	virtual float Calculate(int month)const = 0;
 	virtual void ShowInfo()const = 0;
 
-	
 };
 
