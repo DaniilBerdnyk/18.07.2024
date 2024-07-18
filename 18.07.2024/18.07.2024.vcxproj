@@ -128,6 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="18.07.2024.cpp" />
+
+    <ClCompile Include="Bank.cpp" />
+    <ClCompile Include="Investment.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bank.h" />
+    <ClInclude Include="Investment.h" />
+
     <ClCompile Include="DepositeDemand.cpp" />
     <ClCompile Include="Investment.cpp" />
     <ClCompile Include="LongInvestment.cpp" />
@@ -136,6 +144,7 @@
     <ClInclude Include="DepositeDemand.h" />
     <ClInclude Include="Investment.h" />
     <ClInclude Include="LongInvestment.h" />
+
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

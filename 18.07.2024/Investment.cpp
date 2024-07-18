@@ -22,6 +22,8 @@ void Investment::setMoney(float money)
     this->money = money;
 }
 
+
+
 void Investment::AddMoney(float summ)
 {
     try
@@ -47,6 +49,7 @@ void Investment::DelMoney(float summ)
         cout << "Ошибка: сумма не может быть отрицательной или превышать текущий баланс" << endl;
     }
 }
+
 
 
 string Investment::getName() const

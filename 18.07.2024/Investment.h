@@ -1,5 +1,6 @@
 #pragma once
 #include<string>
+#include<string>
 #include<iostream>
 ////фіо вкладника (get, set) 
 //
@@ -19,6 +20,12 @@ public:
 	void setName(string name);
 	void setMoney(float money);
 
+
+	string getName()const;
+	float getMoney()const;
+
+	virtual float Calculate() = 0;
+
 	void AddMoney(float summ);
 	void DelMoney(float summ);
 
@@ -27,6 +34,7 @@ public:
 
 	virtual float Calculate(int month)const = 0;
 	virtual void ShowInfo()const = 0;
+
 
 };
 
