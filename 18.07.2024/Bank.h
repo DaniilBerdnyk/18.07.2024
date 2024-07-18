@@ -8,8 +8,8 @@ class Bank
 {
 	string name;
 	float sumInvestments;
-	int countInvestments;
-	set<Investment*> investments;
+	int countInvestments; 
+	set<Investment*> investments; 
 	
 public:
 	Bank();
